@@ -13,7 +13,7 @@ Here’s a clean and professional draft you can use in your **GitHub README** to
 
 I extracted raw data directly from internal **data warehouses** using **SQL**. This involved writing complex queries with **JOINs**, **window functions (ROW\_NUMBER)**, **partitioning**, and **filters** to retrieve workforce and business certification data.
 ➡️ **Example SQL Query**:
-*A sample query is provided in the `sql_queries/` folder (or see below).*
+*A sample query is provided here: (https://github.com/Fatema-ruhi/AnnualReport_DataAnalysis/blob/main/Sample%20SQL%20query).
 
 
 
