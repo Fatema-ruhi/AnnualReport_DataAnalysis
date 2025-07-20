@@ -15,70 +15,7 @@ I extracted raw data directly from internal **data warehouses** using **SQL**. T
 ➡️ **Example SQL Query**:
 *A sample query is provided in the `sql_queries/` folder (or see below).*
 
-```sql
-/* Put all the different business codes in this list.*/
 
-
-Select distinct
-[CertificationID],
-[UNSPSCCode],
-[Title],
-[Fam_Ranking],
---[Ranking],
-[CertificationStatusID],
-[ApplicationProcessDescription],
-[CertificationDescription],
-[CertificationStatusDescription],
-[BusinessName],
-[BusinessCity],
-[BusinessCounty],
-[BusinessState],
-[CountyName],
-[RegionName],
-[CertificationDate],
-[UpdatedDate]
-
-From(
-	Select
-	[CertificationID],
-	[UNSPSCCode],
-	[Title],
-	[Fam_Ranking],
-	--[Ranking] = Max([Fam_Ranking]) Over (Partition by [CertificationID], Left([UNSPSCCode], 2) order by [UNSPSCCode]),
-	[CertificationStatusID],
-	[ApplicationProcessDescription],
-	[CertificationDescription],
-	[CertificationStatusDescription],
-	[BusinessName],
-	[BusinessCity],
-	[BusinessCounty],
-	[BusinessState],
-	[CountyName],
-	[RegionName],
-	[CertificationDate],
-	[UpdatedDate]
-	From(
-			Select
-				UCU.[CertificationID], UC.[Title], UC.[UNSPSCCode],
-				[Fam_Ranking] = ROW_NUMBER() OVER (PARTITION BY C.[CertificationID], left([UNSPSCCode],2) ORDER BY UC.[UNSPSCCode]),
-				C.[CertificationStatusID], ap.[ApplicationProcessDescription], cet.[CertificationDescription], cst.[CertificationStatusDescription], C.[BusinessName], C.[BusinessCity], C.[BusinessCounty], C.[BusinessState], ct.[CountyName], r.[RegionName], C.[CertificationDate], C.[UpdatedDate]
-
-			FROM [OA_MWBCert].[dbo].[Certification] C
-			JOIN [OA_MWBCert].[dbo].[CertificationUNSPSCCode] UCU ON C.CertificationID = UCU.CertificationID
-			join [OA_MWBCert].[dbo].[Application] a on a.[CertificationID] = C.[CertificationID]
-			JOIN [OA_MWBCert].[dbo].[UNSPSCCode] UC ON UC.UNSPSCCodeID = UCU.UNSPSCCodeID
-			join [OA_MWBCert].[dbo].[CertificationType] cet on cet.[CertificationTypeID] = C.[CertificationTypeID]
-			Full join [OA_MWBCert].[dbo].[County] ct on ct.[CountyID] = C.[BusinessCounty]
-			Full join [OA_MWBCert].[dbo].[Region] r on ct.[regionID] = r.[RegionID]
-			join [OA_MWBCert].[dbo].[CertificationStatus] cst on cst.[CertificationStatusID] = C.[CertificationStatusID]
-			join [OA_MWBCert].[dbo].[ApplicationProcess] ap on ap.[ApplicationProcessID] = a.[ApplicationProcessID]
-		  
-			Where C.[CertificationStatusID] = '2' --and left([UNSPSCCode],2) = '10'      --If you want to see only one segment, change the segment value accordingly and uncomment 'left([UNSPSCCode],2)'.
-	) A
-) X
-Where [Fam_Ranking] = '1' 
-Order By [CertificationID]
-```
 
 ### 🔹 Data Cleaning and Processing
 
@@ -92,7 +29,7 @@ Order By [CertificationID]
 
 ### 🔹 Dashboarding and Visualization
 
-* Built **interactive dashboards** in **Tableau Desktop** to visualize:
+* Built **interactive dashboards** in **Tableau Desktop** to visualize: (A sample of a Tableau Dashoboard: https://github.com/Fatema-ruhi/AnnualReport_DataAnalysis/blob/main/Dashboard%201%20overall.png).
 
   * Certification distribution by county, region, and business sector.
   * Trends in workforce diversity and business status.
