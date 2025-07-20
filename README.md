@@ -97,6 +97,7 @@ Order By [CertificationID]
   * Certification distribution by county, region, and business sector.
   * Trends in workforce diversity and business status.
   * Year-over-year changes and breakdowns by business classification codes.
+
 * Created **summary tables and charts** aligned with reporting standards from the [FY23 OEO Annual Report](https://oeo.mo.gov/wp-content/uploads/2024/05/fy23-annual-report-final.pdf).
 
 ---
