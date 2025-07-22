@@ -67,45 +67,16 @@ This dashboard gives an overview of **supplier diversity across different region
 
   * Businesses come from **many different industries**, especially **construction, healthcare, professional services, and IT**.
 
-#### 4. **Write a Detailed README**
+🟢 How This Project Demonstrates My Data Science Skills:
 
-* Explain:
+✅ Data Extraction: I pulled raw data from state data warehouses using advanced SQL queries to gather complex certification and vendor datasets.
 
-  * Your role in the analysis.
-  * Tools and techniques used (e.g., Python libraries like `pandas`, `tabula-py` for PDF extraction, Excel, R, Tableau).
-  * What parts of the report you analyzed and why.
-  * Key findings or outcomes.
-  * How this project demonstrates your data science skills.
+✅ Data Cleaning & Preparation: I processed large datasets using Tableau Prep and Excel, handling missing values, filtering relevant records, and transforming data into analysis-ready formats.
 
-#### 6. **Use GitHub Pages or Notebooks Viewer for Presentation**
+✅ Data Analysis & Modeling: I conducted descriptive analytics, tracked year-over-year trends, and performed region-wise and county-level breakdowns.
 
-* GitHub renders Jupyter notebooks and Markdown files beautifully so recruiters can view your analysis directly in the browser.
-* Optionally, set up GitHub Pages for a simple project website with your summary.
+✅ Data Visualization: I designed interactive dashboards in Tableau Desktop, showing performance summaries, geographic maps, and time-series trends.
 
-### Example README Outline:
+✅ Business Insight Generation: The project generated actionable insights to support policy decisions on supplier diversity, regional outreach, and certification process improvements.
 
-```markdown
-# Missouri OEO FY23 Annual Report Data Analysis
-
-This repository contains my data analysis work on the quantitative parts of the Missouri Office of Equal Opportunity FY23 Annual Report.
-
-## Project Overview
-- Extracted and cleaned numerical data from the official PDF report.
-- Created summary tables and visualizations highlighting workforce demographics, budget, and program outcomes.
-- Tools used: Python (pandas, tabula-py), Excel, Tableau.
-
-## Source Document
-[OEO FY23 Annual Report (PDF)](https://oeo.mo.gov/wp-content/uploads/2024/05/fy23-annual-report-final.pdf)
-
-## Key Deliverables
-- Data extraction scripts/notebooks
-- Cleaned datasets (CSV)
-- Summary tables
-- Visualizations with insights
-
-## Skills Demonstrated
-- Data extraction from complex documents
-- Data cleaning and preparation
-- Quantitative analysis and reporting
-- Data visualization
-
+This work demonstrates my ability to manage large-scale public sector data projects, apply data-driven insights, and create clear, stakeholder-friendly visualizations to support organizational goals.
