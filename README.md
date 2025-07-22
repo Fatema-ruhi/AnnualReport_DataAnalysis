@@ -69,14 +69,14 @@ This dashboard gives an overview of **supplier diversity across different region
 
 🟢 How This Project Demonstrates My **Data Science Skills**:
 
-✅ Data Extraction: I pulled raw data from state data warehouses using advanced SQL queries to gather complex certification and vendor datasets.
+* Data Extraction: I pulled raw data from state data warehouses using advanced SQL queries to gather complex certification and vendor datasets.
 
-✅ Data Cleaning & Preparation: I processed large datasets using Tableau Prep and Excel, handling missing values, filtering relevant records, and transforming data into analysis-ready formats.
+* Data Cleaning & Preparation: I processed large datasets using Tableau Prep and Excel, handling missing values, filtering relevant records, and transforming data into analysis-ready formats.
 
-✅ Data Analysis & Modeling: I conducted descriptive analytics, tracked year-over-year trends, and performed region-wise and county-level breakdowns.
+* Data Analysis & Modeling: I conducted descriptive analytics, tracked year-over-year trends, and performed region-wise and county-level breakdowns.
 
-✅ Data Visualization: I designed interactive dashboards in Tableau Desktop, showing performance summaries, geographic maps, and time-series trends.
+* Data Visualization: I designed interactive dashboards in Tableau Desktop, showing performance summaries, geographic maps, and time-series trends.
 
-✅ Business Insight Generation: The project generated actionable insights to support policy decisions on supplier diversity, regional outreach, and certification process improvements.
+* Business Insight Generation: The project generated actionable insights to support policy decisions on supplier diversity, regional outreach, and certification process improvements.
 
 This work demonstrates my ability to manage large-scale public sector data projects, apply data-driven insights, and create clear, stakeholder-friendly visualizations to support organizational goals.
