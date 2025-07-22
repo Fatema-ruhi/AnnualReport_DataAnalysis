@@ -67,7 +67,7 @@ This dashboard gives an overview of **supplier diversity across different region
 
   * Businesses come from **many different industries**, especially **construction, healthcare, professional services, and IT**.
 
-🟢 How This Project Demonstrates My Data Science Skills:
+🟢 How This Project Demonstrates My **Data Science Skills**:
 
 ✅ Data Extraction: I pulled raw data from state data warehouses using advanced SQL queries to gather complex certification and vendor datasets.
 
