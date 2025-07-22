@@ -32,8 +32,6 @@ I extracted raw data directly from internal **data warehouses** using **SQL**. T
 
 ✅ **Result**: A fully automated pipeline starting from SQL-based raw data extraction, through data cleaning and transformation, to end-to-end reporting with **Tableau dashboards** and **Excel summaries**.
 
-Sure! Here’s a more straightforward, general version:
-
 ### 📊 **Summary of the Dashboard:**
 
 This dashboard gives an overview of **supplier diversity across different regions in Missouri**. It shows information about **where businesses are located**, **what types of certifications they have**, **how they applied**, and **how the number of certified businesses has changed over time**.
@@ -68,10 +66,6 @@ This dashboard gives an overview of **supplier diversity across different region
 **Types of Businesses**:
 
   * Businesses come from **many different industries**, especially **construction, healthcare, professional services, and IT**.
-
-🟢 **Overall Takeaway**:
-
-This dashboard helps **track diversity among certified businesses**, showing **where they are**, **how they are certified**, and **what industries they work in**. It can help people make decisions about **supporting diverse businesses** and **filling gaps in certain regions**.
 
 #### 4. **Write a Detailed README**
 
