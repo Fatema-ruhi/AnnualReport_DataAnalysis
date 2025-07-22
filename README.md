@@ -6,6 +6,7 @@
 ### 🔹 Data Extraction
 
 I extracted raw data directly from internal **data warehouses** using **SQL**. This involved writing complex queries with **JOINs**, **window functions (ROW\_NUMBER)**, **partitioning**, and **filters** to retrieve workforce and business certification data.
+
 ➡️ **Example SQL Query**:
 *A sample query is provided here: (https://github.com/Fatema-ruhi/AnnualReport_DataAnalysis/blob/main/Sample%20SQL%20query).
 
@@ -31,12 +32,50 @@ I extracted raw data directly from internal **data warehouses** using **SQL**. T
 
 ✅ **Result**: A fully automated pipeline starting from SQL-based raw data extraction, through data cleaning and transformation, to end-to-end reporting with **Tableau dashboards** and **Excel summaries**.
 
-  * Tables and visualizations: Include the key tables you created or graphs that summarize findings.
-  * Summary and insights: Brief text blocks explaining what the data shows.
+Sure! Here’s a more straightforward, general version:
 
-#### 3. **Add the Original Annual Report Link**
+---
 
-* Put the link in the README file and mention that this is the source document you analyzed.
+### 📊 **Summary of the Dashboard:**
+
+This dashboard gives an overview of **supplier diversity across different regions in Missouri**. It shows information about **where businesses are located**, **what types of certifications they have**, **how they applied**, and **how the number of certified businesses has changed over time**.
+
+---
+
+### ✅ **Main Insights:**
+
+**Regional Breakdown**:
+
+  * Most certified businesses are in **St. Louis** and **Kansas City**.
+  * Some regions, like **Northeast** and **Northwest Missouri**, have fewer certified businesses.
+  * A good number of vendors are also from **outside Missouri**.
+
+**Types of Certification**:
+
+  * Many businesses are certified as **minority-owned (MBE)** or **women-owned (WBE)**.
+  * Some have both certifications (**MBE/WBE**).
+
+**Application Methods**:
+
+  * Most businesses use the **standard application process**, while others use **faster in-state** or **out-of-state options**.
+
+**Trends Over Time**:
+
+  * The number of certified businesses has **gone up and down over the years**.
+  * There were **big increases around 2015 and 2022**, but a **drop in 2024**.
+
+**County and City Details**:
+
+  * **Jackson County, St. Louis, and Franklin County** have the **highest number of businesses**.
+  * Some counties have **very few certified businesses**.
+
+**Types of Businesses**:
+
+  * Businesses come from **many different industries**, especially **construction, healthcare, professional services, and IT**.
+
+🟢 **Overall Takeaway**:
+
+This dashboard helps **track diversity among certified businesses**, showing **where they are**, **how they are certified**, and **what industries they work in**. It can help people make decisions about **supporting diverse businesses** and **filling gaps in certain regions**.
 
 #### 4. **Write a Detailed README**
 
@@ -48,16 +87,10 @@ I extracted raw data directly from internal **data warehouses** using **SQL**. T
   * Key findings or outcomes.
   * How this project demonstrates your data science skills.
 
-#### 5. **Optional: Include Sample Data or Processed Tables**
-
-* If you can legally share, upload CSV files with cleaned quantitative data or sample tables.
-
 #### 6. **Use GitHub Pages or Notebooks Viewer for Presentation**
 
 * GitHub renders Jupyter notebooks and Markdown files beautifully so recruiters can view your analysis directly in the browser.
 * Optionally, set up GitHub Pages for a simple project website with your summary.
-
----
 
 ### Example README Outline:
 
