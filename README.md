@@ -108,8 +108,4 @@ This repository contains my data analysis work on the quantitative parts of the 
 - Data cleaning and preparation
 - Quantitative analysis and reporting
 - Data visualization
-```
 
----
-
-If you want, I can help you draft the actual README or a sample notebook outline for this project! Would that be helpful?
