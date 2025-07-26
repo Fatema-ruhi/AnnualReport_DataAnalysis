@@ -22,7 +22,8 @@ I extracted raw data directly from internal **data warehouses** using **SQL**. T
 
 ### 🔹 Dashboarding and Visualization
 
-* Built **interactive dashboards** in **Tableau Desktop** to visualize: ![A sample of a Tableau Dashoboard](https://github.com/Fatema-ruhi/AnnualReport_DataAnalysis/blob/main/Dashboard%201%20overall.png)
+* Built **interactive dashboards** in **Tableau Desktop** to visualize:
+![A sample of a Tableau Dashoboard](https://github.com/Fatema-ruhi/AnnualReport_DataAnalysis/blob/main/Dashboard%201%20overall.png)
 
   * Certification distribution by county, region, and business sector.
   * Trends in workforce diversity and business status.
