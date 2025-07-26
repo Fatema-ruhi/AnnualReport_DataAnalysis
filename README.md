@@ -38,7 +38,7 @@ I extracted raw data directly from internal **data warehouses** using **SQL**. T
 
 This dashboard gives an overview of **supplier diversity across different regions in Missouri**. It shows information about **where businesses are located**, **what types of certifications they have**, **how they applied**, and **how the number of certified businesses has changed over time**.
 
-### ✅ **Main Insights:**
+### **Main Insights:**
 
 **Regional Breakdown**:
 
