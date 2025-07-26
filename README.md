@@ -42,18 +42,18 @@ This dashboard gives an overview of **supplier diversity across different region
 
 **Regional Breakdown**:
 
-  * Most certified businesses are in **St. Louis** and **Kansas City**.
-  * Some regions, like **Northeast** and **Northwest Missouri**, have fewer certified businesses.
-  * A good number of vendors are also from **outside Missouri**.
+  * Most certified businesses are in **--** and **--**.
+  * Some regions, like **--** and **--**, have fewer certified businesses.
+  * A good number of vendors are also from **--**.
 
 **Types of Certification**:
 
-  * Many businesses are certified as **minority-owned (MBE)** or **women-owned (WBE)**.
-  * Some have both certifications (**MBE/WBE**).
+  * Many businesses are certified as **--** or **--**.
+  * Some have both certifications (**--**).
 
 **Application Methods**:
 
-  * Most businesses use the **standard application process**, while others use **faster in-state** or **out-of-state options**.
+  * Most businesses use the **--**, while others use **faster --** or **-- options**.
 
 **Trends Over Time**:
 
@@ -62,7 +62,7 @@ This dashboard gives an overview of **supplier diversity across different region
 
 **County and City Details**:
 
-  * **Jackson County, St. Louis, and Franklin County** have the **highest number of businesses**.
+  * **-- County, -- County, and -- County** have the **highest number of businesses**.
   * Some counties have **very few certified businesses**.
 
 **Types of Businesses**:
