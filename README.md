@@ -1,12 +1,8 @@
 # AnnualReport_DataAnalysis
 “This project showcases my data analysis of the Missouri Office of Equal Opportunity FY23 Annual Report. I extracted, cleaned, and analyzed quantitative data from data warehouses using SQL, created summary tables and visuals using Tableau, and Excel, to provide insights on workforce demographics and diversity metrics.”
-
 ## Data Extraction and Analysis Process
-
 ### Data Extraction
-
 I extracted raw data directly from internal **data warehouses** using **SQL**. This involved writing complex queries with **JOINs**, **window functions (ROW\_NUMBER)**, **partitioning**, and **filters** to retrieve workforce and business certification data.
-
 **Example SQL Query**:
 *A sample query is provided here: (https://github.com/Fatema-ruhi/AnnualReport_DataAnalysis/blob/main/Sample%20SQL%20query).
 
