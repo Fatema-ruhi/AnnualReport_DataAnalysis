@@ -23,11 +23,12 @@ I extracted raw data directly from internal **data warehouses** using **SQL**. T
 ### 🔹 Dashboarding and Visualization
 
 * Built **interactive dashboards** in **Tableau Desktop** to visualize:
-![A sample of a Tableau Dashoboard](https://github.com/Fatema-ruhi/AnnualReport_DataAnalysis/blob/main/Dashboard%201%20overall.png)
-
   * Certification distribution by county, region, and business sector.
   * Trends in workforce diversity and business status.
   * Year-over-year changes and breakdowns by business classification codes.
+    Here is a sample dashobard:
+    
+    ![Tableau Dashoboard](https://github.com/Fatema-ruhi/AnnualReport_DataAnalysis/blob/main/Dashboard%201%20overall.png)
 
 * Created **summary tables and charts** aligned with reporting standards from the [FY23 OEO Annual Report](https://oeo.mo.gov/wp-content/uploads/2024/05/fy23-annual-report-final.pdf).
 
