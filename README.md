@@ -1,16 +1,16 @@
 # AnnualReport_DataAnalysis
 “This project showcases my data analysis of the Missouri Office of Equal Opportunity FY23 Annual Report. I extracted, cleaned, and analyzed quantitative data from data warehouses using SQL, created summary tables and visuals using Tableau, and Excel, to provide insights on workforce demographics and diversity metrics.”
 
-## 📊 Data Extraction and Analysis Process
+## Data Extraction and Analysis Process
 
-### 🔹 Data Extraction
+### Data Extraction
 
 I extracted raw data directly from internal **data warehouses** using **SQL**. This involved writing complex queries with **JOINs**, **window functions (ROW\_NUMBER)**, **partitioning**, and **filters** to retrieve workforce and business certification data.
 
-➡️ **Example SQL Query**:
+**Example SQL Query**:
 *A sample query is provided here: (https://github.com/Fatema-ruhi/AnnualReport_DataAnalysis/blob/main/Sample%20SQL%20query).
 
-### 🔹 Data Cleaning and Processing
+### Data Cleaning and Processing
 
 * After extraction, I cleaned and pre-processed the data using Tableau Prep and Excel.
 * Tasks included:
@@ -20,7 +20,7 @@ I extracted raw data directly from internal **data warehouses** using **SQL**. T
   * Handling missing values in county and region mappings.
   * Formatting data for visualization-ready use.
 
-### 🔹 Dashboarding and Visualization
+### Dashboarding and Visualization
 
 * Built **interactive dashboards** in **Tableau Desktop** to visualize:
   * Certification distribution by county, region, and business sector.
@@ -32,9 +32,9 @@ I extracted raw data directly from internal **data warehouses** using **SQL**. T
 
 * Created **summary tables and charts** aligned with reporting standards from the [FY23 OEO Annual Report](https://oeo.mo.gov/wp-content/uploads/2024/05/fy23-annual-report-final.pdf).
 
-✅ **Result**: A fully automated pipeline starting from SQL-based raw data extraction, through data cleaning and transformation, to end-to-end reporting with **Tableau dashboards** and **Excel summaries**.
+**Result**: A fully automated pipeline starting from SQL-based raw data extraction, through data cleaning and transformation, to end-to-end reporting with **Tableau dashboards** and **Excel summaries**.
 
-### 📊 **Summary of the Dashboard:**
+### **Summary of the Dashboard:**
 
 This dashboard gives an overview of **supplier diversity across different regions in Missouri**. It shows information about **where businesses are located**, **what types of certifications they have**, **how they applied**, and **how the number of certified businesses has changed over time**.
 
@@ -69,7 +69,7 @@ This dashboard gives an overview of **supplier diversity across different region
 
   * Businesses come from **many different industries**, especially **construction, healthcare, professional services, and IT**.
 
-### ✅ **How This Project Demonstrates My Data Science Skills**:
+### **How This Project Demonstrates My Data Science Skills**:
 
 * Data Extraction: I pulled raw data from state data warehouses using advanced SQL queries to gather complex certification and vendor datasets.
 
